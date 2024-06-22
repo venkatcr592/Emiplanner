@@ -1,0 +1,127 @@
+<!-- activity_personal.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000835"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textview_loan_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:gravity="center"
+        android:text="Personal Loan"
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Loan Amount"
+        android:layout_marginBottom="8dp"
+        android:inputType="numberDecimal"
+        android:textColor="#DAD7D5"
+        android:textColorHint="#9C9C9C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_interest_rate"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Interest Rate (%)"
+        android:inputType="numberDecimal"
+        android:textColor="#DAD7D5"
+        android:textColorHint="#9C9C9C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_loan_tenure"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Loan Tenure (in years)"
+        android:layout_marginBottom="16dp"
+        android:inputType="number"
+        android:textColor="#DAD7D5"
+        android:textColorHint="#9C9C9C"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:text="Calculate"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMI"
+        android:layout_marginTop="35dp"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_emi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DAD7D5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Principal Amount"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_principal_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DAD7D5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Total Interest"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_total_interest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DAD7D5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Total Amount"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_total_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#DAD7D5"
+        android:textSize="20sp" />
+
+</LinearLayout>

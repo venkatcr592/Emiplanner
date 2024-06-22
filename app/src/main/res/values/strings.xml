@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MiniProject1JT20IS050-1JT20IS031</string>
+    <string name="mortgage_label">Amount Payable : </string>
+    <string name="years_label">Interest Rate (%) : </string>
+    <string name="interest_rate_label">Number of Years : </string>
+    <string name="output_label"></string>
+    <string name="prompt_label">Please enter the following to calculate the EMI</string>
+    <!--Button-->
+    <string name="calculate_button">Calculate</string>
+    <!--Hints-->
+    <string name="mortgage_hint">Amount in Rs.</string>
+    <string name="years_hint">Years</string>
+    <string name="interest_rate_hint">Interest Rate</string>
+
+    <string-array name="array_domain">
+        <item>Select Your Domain</item>
+        <item>Vehicle Loan</item>
+        <item>Electronics</item>
+        <item>Home Loan</item>
+        <item>Personal Loan</item>
+    </string-array>
+
+    <string-array name="array_sub_domain">
+        <item>Select Your Sub Domain</item>
+    </string-array>
+
+    <string-array name="array_vehicle_loan">
+        <item>Select Your Sub Domain</item>
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Truck</item>
+        <item>Bus</item>
+        <item>Auto Rickshaw</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="array_electronics">
+        <item>Select Your Sub Domain</item>
+        <item>Computer</item>
+        <item>Washing Machine</item>
+        <item>Television</item>
+        <item>Fridge</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="array_home_loan">
+        <item>No Sub Domain Available</item>
+    </string-array>
+    <string-array name="array_personal_loan">
+        <item>No Sub Domain Available</item>
+    </string-array>
+</resources>
